@@ -1,11 +1,11 @@
-let isDark = false;
+let isDark = true;
 
 // 1. This function will toggle the appearance from light text to dark text
 function toggleColor() {
   const body = document.getElementsByTagName("body")[0];
   isDark = !isDark;
   if (isDark) {
-    body.style.color = "black";
+    body.style.color = "white";
   } else {
     body.style.color = "white";
   }
